@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Database system</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <table>
+        <tr>
+          <td><img src="../project2/logo.png" alt="" /></td>
+          <td><h1 class="head">ระบบฐานข้อมูลนิสิต</h1></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="box">
+      <div class="search">
+        <div class="inline">
+          <h2>ค้นหาข้อมูลนิสิต :</h2>
+        </div>
+        <div class="inline">
+          <input type="text" />
+        </div>
+        <div class="inline">
+          <button type="">Get</button>
+        </div>
+      </div>
+      <div class="subbox">
+        <h3>ส่วนที่ 1 : ข้อมูลส่วนตัว</h3>
+        <div class="input">
+          <label>รหัสนิสิต</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <div class="inline">
+            <label>ชื่อ(ภาษาไทย)</label>
+            <input type="text" />
+          </div>
+          <div class="inline">
+            <label>นามสกุล(ภาษาไทย)</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div>
+          <div class="inline">
+            <label>ชื่อ(ภาษาอังกฤษ)</label>
+            <input type="text" />
+          </div>
+          <div class="inline">
+            <label>นามสกุล(ภาษาอังกฤษ)</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div>
+          <div class="inline">
+            <label>คณะ</label>
+            <input type="text" />
+          </div>
+          <div class="inline">
+            <label>สาขาวิชา</label>
+            <input type="text" />
+          </div>
+          <div class="inline">
+            <label>ชั้นปีที่</label>
+            <input type="text" />
+          </div>
+          <div class="inline">
+            <label>กลุ่มผู้เรียน(Section)</label>
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="subbox">
+        <h3>ส่วนที่ 2 : ข้อมูลติดต่อ</h3>
+        <div class="inline">
+          <label>เบอร์โทรศัพท์มือถือ</label>
+          <input type="text" />
+        </div>
+        <div class="inline">
+          <label>อีเมลล์(E-mail)</label>
+          <input type="text" />
+        </div>
+        <div class="input">
+          <label>ที่อยู่ที่สามารถติดต่อได้</label>
+        </div>
+        <div class="input">
+          <textarea type="text" class="address"> </textarea>
+        </div>
+      </div>
+      <br />
+      <div class="subbox-button">
+        <button type="submit">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
